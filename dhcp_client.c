@@ -4,6 +4,8 @@
  * @brief Basic Linux DHCP client using Rapid Commit supporting Low-power and Lossy Networks
  * @version 1.0
  * @date 2023-08-28
+ * @copyright Copyright (c) 2023 Yann Charbon. All right reserved.
+ * This project is release under Apache-2.0 License.
  * 
  * This DHCP client is capable to work behind the Mbed OS Nanostack network stacks, such as Wi-SUN, Thread
  * or 6LoWPAN mesh. This allows to connect a standard PC behind such networks.
@@ -13,8 +15,6 @@
  * .-----------------.      .-------------------------.      .------------------------.      .---------.
  * | Internet (IPv6) | <--> |  Nanostack BR (Wi-SUN)  | <--> |  Modified Router Node  | <--> |  Linux  |
  * '-----------------'      '-------------------------'      '------------------------'      '---------'
- *
- * @copyright Copyright (c) 2023
  *
  */
 
