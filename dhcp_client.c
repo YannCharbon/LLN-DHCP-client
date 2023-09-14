@@ -885,7 +885,9 @@ int main(int argc, char *argv[]) {
 
     printf("Press CTRL+C to close\n");
 
-    while(1);
+    while(1) {
+        sleep(1);
+    }
 
     return 0;
 }
