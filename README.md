@@ -53,6 +53,7 @@ Here is a template to run the DHCP client as a service (using systemd).
 
 [Unit]
 Description=Low-Power and Lossy network DHCP client service
+After=network.target
 StartLimitIntervalSec=0
 
 [Service]
@@ -60,7 +61,6 @@ Type=simple
 Restart=always
 RestartSec=1
 ExecStart=[path to lln-dhcp-client executable] eth0
-User=root
 
 [Install]
 WantedBy=multi-user.target
