@@ -8,7 +8,7 @@
             "name": "C++ Launch",
             "type": "cppdbg",
             "request": "launch",
-            "program": "${workspaceFolder}/dhcp-client",
+            "program": "${workspaceFolder}/lln-dhcp-client",
             "cwd": "${workspaceFolder}",
             "stopAtEntry": true,
             "externalConsole": false,

@@ -14,7 +14,7 @@ LDLIBS=
 SRC_DIR=.
 SRCS_C=$(wildcard $(SRC_DIR)/*.c)
 OBJS_C=$(SRCS_C:.c=.o)
-OUT=dhcp-client
+OUT=lln-dhcp-client
 
 all: $(OUT)
 
