@@ -27,6 +27,12 @@ Options are the following:
 
 - Interface name
 
+# Compilation
+
+GNU Make and GCC is required to compile the client. Simply run `make` command within the project directory to generate the executable.
+
+If you encounter a compilation issue concerning **pthread**, simply edit the Makefile and replace `-lpthread` by `-pthread` within the LDFLAGS.
+
 ## Additional information
 ### Correct network configuration
 
